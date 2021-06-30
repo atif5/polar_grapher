@@ -24,7 +24,7 @@ Same as `draw` but it graphs parametric polar functions.
 
 Since both functions are very similar I will give you an example:
 
-To graph the tractrix spiral: $\displaystyle {\begin{cases}r=100 \cdot \cos(t)\\\theta =\tan(t)-t\end{cases}}$
+To graph the tractrix spiral: <img src="https://render.githubusercontent.com/render/math?math=\displaystyle {\begin{cases}r=100 \cdot \cos(t)\\\theta =\tan(t)-t\end{cases}}">
 
 `eq1` must be `"r = 100*cos(t)"` , and `eq2` must be `"t = tan(t)-t"`
 
