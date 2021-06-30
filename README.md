@@ -32,8 +32,11 @@ As we see `eq1` must be <img src="https://render.githubusercontent.com/render/ma
 
 Other parameters are the same as they are in `draw`.
 
+## requirements:
+* pygame
 
- ## important notes
+
+## important notes
  * You can also graph piecewise polar functions using pythonic expressions like:
  ```
  draw("r = 100 if t > 4 else 50")
