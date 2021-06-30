@@ -37,7 +37,7 @@ def draw(eq, plane_size=(800, 800), continuity=0.005, color=PINK):
 
         pygame.draw.circle(plane, color, (cx + hw, -1 * cy + hh), 1)
 
-        text = font.render(f"drawing the point: {(cx, cy)}", False, WHITE)
+        text = font.render(f"drawing the point (cartesian) : {(cx, cy)}", False, WHITE)
         plane.blit(pygame.Surface(text.get_size()), (20, 0))
         plane.blit(text, (0, 0))
 
@@ -79,7 +79,7 @@ def draw_parametric(eq1, eq2, plane_size=(800, 800), continuity=0.001, color=PIN
 
         pygame.draw.circle(plane, color, (cx + hw, -1 * cy + hh), 1)
 
-        text = font.render(f"drawing the point: {(cx, cy)}", False, WHITE)
+        text = font.render(f"drawing the point (cartesian) : {(cx, cy)}", False, WHITE)
         plane.blit(pygame.Surface(text.get_size()), (20, 0))
         plane.blit(text, (0, 0))
 
