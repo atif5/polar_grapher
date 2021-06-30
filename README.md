@@ -1,5 +1,5 @@
 # polar_grapher
-a simple module that draws polar functions using pygame.
+a simple module that draws polar functions using `pygame`.
 
 
 ## usage
