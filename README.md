@@ -11,7 +11,7 @@ It is fairly simple to use this module. There are two self_explanatory functions
 graphs a polar function with the form $r = f(\theta)$.
  
  * `eq` is a string, and the equation of the function that is going to be graphed. It *must* be exactly written in the form `"r = func"` (mind the spaces) and `func` must only contain the variable `t` (theta).
-For example: to graph the archimedean spiral, $r = 100 \cdot \theta$, `eq` must be `"r = 100*t"`.
+For example: to graph the archimedean spiral, <img src="https://render.githubusercontent.com/render/math?math=r = 100 \cdot \theta">, `eq` must be `"r = 100*t"`.
 
 * `plane_size` is a tuple containing the scales of the coordinate plane (width, height). It is set to `(800, 800) `by default.
 
