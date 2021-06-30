@@ -39,3 +39,8 @@ Other parameters are the same as they are in `draw`.
  draw("r = 100 if t > 4 else 50")
  ```
  * Remember to check out the examples.
+
+
+## screenshots
+
+![atomic](screenshots/atomic.png?raw=true "Title")
