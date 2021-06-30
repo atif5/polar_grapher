@@ -58,7 +58,7 @@ def draw_parametric(eq1, eq2, plane_size=(800, 800), continuity=0.001, color=PIN
     
     font = pygame.font.SysFont("freesans", 15)
 
-    graph = pygame.display.set_mode(size=plane_size)
+    plane = pygame.display.set_mode(size=plane_size)
 
     while True:
         pygame.display.flip()        
