@@ -44,3 +44,4 @@ Other parameters are the same as they are in `draw`.
 ## screenshots
 
 ![atomic](screenshots/atomic.png?raw=true "Title")
+![strawberry](screenshots/strawberry.png?raw=true "Title")
