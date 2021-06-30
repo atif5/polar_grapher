@@ -9,8 +9,8 @@ pygame.font.init()
 PINK  = (255,   0, 150)
 WHITE = (255, 255, 255)
 
-def draw(eq, graph_size=(800, 800), continuity=0.005, color=PINK):
-    w, h, hw, hh = (*graph_size, graph_size[0] / 2, graph_size[1] / 2)
+def draw(eq, plane_size=(800, 800), continuity=0.005, color=PINK):
+    w, h, hw, hh = (*plane_size, plane_size[0] / 2, plane_size[1] / 2)
 
     t = 0
     
@@ -18,7 +18,7 @@ def draw(eq, graph_size=(800, 800), continuity=0.005, color=PINK):
 
     font = pygame.font.SysFont("freesans", 15)
 
-    graph = pygame.display.set_mode(size=graph_size)
+    plane = pygame.display.set_mode(size=plane_size)
 
     while True:
         pygame.display.flip()        
@@ -28,18 +28,18 @@ def draw(eq, graph_size=(800, 800), continuity=0.005, color=PINK):
                 pygame.display.quit()
                 return None
 
-        pygame.draw.line(graph, WHITE, (hw, h), (hw, 0))
-        pygame.draw.line(graph, WHITE, (0, hh), (w, hh))
+        pygame.draw.line(plane, WHITE, (hw, h), (hw, 0))
+        pygame.draw.line(plane, WHITE, (0, hh), (w, hh))
 
         value = eval(func)
         cx = cos(t) * value
         cy = sin(t) * value
 
-        pygame.draw.circle(graph, color, (cx + hw, -1 * cy + hh), 1)
+        pygame.draw.circle(plane, color, (cx + hw, -1 * cy + hh), 1)
 
         text = font.render(f"drawing the point: {(cx, cy)}", False, WHITE)
-        graph.blit(pygame.Surface(text.get_size()), (20, 0))
-        graph.blit(text, (0, 0))
+        plane.blit(pygame.Surface(text.get_size()), (20, 0))
+        plane.blit(text, (0, 0))
 
         t += continuity
 
@@ -48,8 +48,8 @@ def draw(eq, graph_size=(800, 800), continuity=0.005, color=PINK):
 
 
 
-def draw_parametric(eq1, eq2, graph_size=(800, 800), continuity=0.001, color=PINK):
-    w, h, hw, hh = (*graph_size, graph_size[0] / 2, graph_size[1] / 2)
+def draw_parametric(eq1, eq2, plane_size=(800, 800), continuity=0.001, color=PINK):
+    w, h, hw, hh = (*plane_size, plane_size[0] / 2, plane_size[1] / 2)
 
     t = 0
 
@@ -58,7 +58,7 @@ def draw_parametric(eq1, eq2, graph_size=(800, 800), continuity=0.001, color=PIN
     
     font = pygame.font.SysFont("freesans", 15)
 
-    graph = pygame.display.set_mode(size=graph_size)
+    graph = pygame.display.set_mode(size=plane_size)
 
     while True:
         pygame.display.flip()        
@@ -68,8 +68,8 @@ def draw_parametric(eq1, eq2, graph_size=(800, 800), continuity=0.001, color=PIN
                 pygame.display.quit()
                 return None
 
-        pygame.draw.line(graph, WHITE, (hw, h), (hw, 0))
-        pygame.draw.line(graph, WHITE, (0, hh), (w, hh))
+        pygame.draw.line(plane, WHITE, (hw, h), (hw, 0))
+        pygame.draw.line(plane, WHITE, (0, hh), (w, hh))
 
         rvalue = eval(rfunc)
         tvalue = eval(tfunc)
@@ -80,7 +80,7 @@ def draw_parametric(eq1, eq2, graph_size=(800, 800), continuity=0.001, color=PIN
         pygame.draw.circle(graph, color, (cx + hw, -1 * cy + hh), 1)
 
         text = font.render(f"drawing the point: {(cx, cy)}", False, WHITE)
-        graph.blit(pygame.Surface(text.get_size()), (20, 0))
-        graph.blit(text, (0, 0))
+        plane.blit(pygame.Surface(text.get_size()), (20, 0))
+        plane.blit(text, (0, 0))
 
         t += continuity
