@@ -1,5 +1,5 @@
 
-from grapher_new import *
+from grapher_new import draw_parametric
 
 
 if __name__ == '__main__':
