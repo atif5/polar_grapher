@@ -77,7 +77,7 @@ def draw_parametric(eq1, eq2, plane_size=(800, 800), continuity=0.001, color=PIN
         cx = cos(tvalue) * rvalue
         cy = sin(tvalue) * rvalue
 
-        pygame.draw.circle(graph, color, (cx + hw, -1 * cy + hh), 1)
+        pygame.draw.circle(plane, color, (cx + hw, -1 * cy + hh), 1)
 
         text = font.render(f"drawing the point: {(cx, cy)}", False, WHITE)
         plane.blit(pygame.Surface(text.get_size()), (20, 0))
