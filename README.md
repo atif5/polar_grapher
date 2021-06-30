@@ -57,4 +57,4 @@ Other parameters are the same as they are in `draw`.
 
 <img src="https://render.githubusercontent.com/render/math?math=r = \displaystyle{100(\cos(\theta))^40%2B100\cos(\theta)%2B100}">
 
-I have no idea what this graph is called. I found it playing and testing the module. I called it *strawberry*.
+I have no idea what this graph is called. I found it while playing and testing the module. I called it *strawberry*.
