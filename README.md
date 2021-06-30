@@ -3,7 +3,7 @@ a simple module that draws polar functions using pygame.
 
 
 ## usage
-It is fairly simple to use this module. There are two self_explanatory functions: `draw` and `draw_parametric`.
+It is fairly simple to use this module. There are two self explanatory functions: `draw` and `draw_parametric`.
 
 
 #### 1. draw(eq, plane_size=(800, 800), continuity=0.005, color=PINK)
