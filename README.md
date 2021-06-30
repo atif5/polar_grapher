@@ -44,4 +44,14 @@ Other parameters are the same as they are in `draw`.
 ## screenshots
 
 ![atomic](screenshots/atomic.png?raw=true "Title")
+
+<img src="https://render.githubusercontent.com/render/math?math=r = \frac{\theta}{\theta-13}">
+
+*atomic spiral*
+
+
 ![strawberry](screenshots/strawberry.png?raw=true "Title")
+
+<img src="https://render.githubusercontent.com/render/math?math=r = 100\cos(\theta)^40+100\cos(\theta)+100">
+
+I have no idea what this graph is called. I found it playing and testing the module. I called it *strawberry*.
