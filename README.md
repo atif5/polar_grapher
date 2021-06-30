@@ -28,7 +28,7 @@ To graph the tractrix spiral: <img src="https://render.githubusercontent.com/ren
 
 `eq1` must be `"r = 100*cos(t)"` , and `eq2` must be `"t = tan(t)-t"`
 
-As we see `eq1` must be $r(t)$ and `eq2` must be $\theta(t)$.
+As we see `eq1` must be <img src="https://render.githubusercontent.com/render/math?math=r(t)"> and `eq2` must be <img src="https://render.githubusercontent.com/render/math?math=\theta(t)">.
 
 Other parameters are the same as they are in `draw`.
 
