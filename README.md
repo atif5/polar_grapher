@@ -45,7 +45,7 @@ Other parameters are the same as they are in `draw`.
 
 ![atomic](screenshots/atomic.png?raw=true "Title")
 
-<img src="https://render.githubusercontent.com/render/math?math=r = \frac{\theta}{\theta-13}">
+<img src="https://render.githubusercontent.com/render/math?math=r = \displaystyle{\frac{\theta}{\theta-13}}">
 
 *atomic spiral*
 
