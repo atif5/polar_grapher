@@ -1,6 +1,6 @@
 
 
-from grapher import *
+from grapher import draw
 
 
 if __name__ == '__main__':
