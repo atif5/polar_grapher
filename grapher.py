@@ -12,7 +12,7 @@ WHITE = (255, 255, 255)
 def draw(eq, plane_size=(800, 800), continuity=0.005, color=PINK):
     w, h, hw, hh = (*plane_size, plane_size[0] / 2, plane_size[1] / 2)
 
-    t = 0
+    t = 0.00001
     
     func = eq[3:].strip()
 
@@ -51,7 +51,7 @@ def draw(eq, plane_size=(800, 800), continuity=0.005, color=PINK):
 def draw_parametric(eq1, eq2, plane_size=(800, 800), continuity=0.001, color=PINK):
     w, h, hw, hh = (*plane_size, plane_size[0] / 2, plane_size[1] / 2)
 
-    t = 0
+    t = 0.00001
 
     rfunc = eq1[3:].strip()
     tfunc = eq2[3:].strip()
