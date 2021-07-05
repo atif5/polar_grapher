@@ -30,7 +30,7 @@ To graph the tractrix spiral: <img src="https://render.githubusercontent.com/ren
 
 As we see `eq1` must be <img src="https://render.githubusercontent.com/render/math?math=r(t)"> and `eq2` must be <img src="https://render.githubusercontent.com/render/math?math=\theta(t)">.
 
-Other parameters are the same as they are in `draw`.
+Other parameters are the same just as they are in `draw`.
 
 ## requirements:
 * pygame
